@@ -66,6 +66,7 @@ main{
   display: flex;
   border: black solid 2px;
   padding: 10px;
+  background-color: coral;
 }
 
 /* Portfolio Page */

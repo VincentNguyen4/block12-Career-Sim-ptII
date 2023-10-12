@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript.js">defer</script>
+</head>
+<body>
+  <header>    
+    <nav>
+      <div id="logo">
+        <h1>Vincent Nguyen</h1>
+      </div>
+      <div id="links">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>  
+    </nav>
+  </header>
+  <main>
+    <h2>Contact Me:</h2>
+    <form action="submission.html">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" name="message" rows="5" cols="40"></textarea>
+      </div>
+      <button type="submit" id="submit-btn">Submit</button>
+    </form>
+  </main>
+  
+  
+</body>
+</html>
