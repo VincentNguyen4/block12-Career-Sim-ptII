@@ -17,6 +17,10 @@ a{
   padding: 1rem;
 }
 
+a:hover{
+  background-color: lightgreen;
+}
+
 nav{
   position: fixed;
   display: flex;
@@ -55,6 +59,7 @@ main{
   display: flex;
   margin: 60px;
   padding: 100px;
+  box-sizing: border-box;
 }
 
 /* About Page */
@@ -79,6 +84,7 @@ main{
   border: black solid 2px;
   padding: 10px;
   background-color: coral;
+  box-sizing: border-box;
 }
 
 /* Portfolio Page */
@@ -118,11 +124,19 @@ form{
   }
 
   body{
-    font-size: .5em;
+    font-size: 1.25em;
   }
 
   main{
     padding: 10px;
-    margin: 5px;
+    margin: 15px;
+    margin-top: 150px;
   }
+
+  #pic-1{
+    width: 160px;
+    height: 200px;
+  }
+
+
 }
