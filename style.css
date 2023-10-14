@@ -111,3 +111,18 @@ form{
   padding: 1rem;
   
 }
+/* responsive styling for smaller screens */
+@media (min-width: 300px) and (max-width: 600px){
+  nav{
+    width: 100vw;
+  }
+
+  body{
+    font-size: .5em;
+  }
+
+  main{
+    padding: 10px;
+    margin: 5px;
+  }
+}
